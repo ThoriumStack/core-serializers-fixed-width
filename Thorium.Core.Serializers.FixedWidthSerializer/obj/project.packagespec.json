@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/Thorium.Core.Serializers.FixedWidthSerializer.csproj",
+    "projectName": "Thorium.Core.Serializers.FixedWidthSerializer",
+    "projectPath": "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/Thorium.Core.Serializers.FixedWidthSerializer.csproj",
+    "outputPath": "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Thorium.Core.DataIntegration": {
+          "target": "Package",
+          "version": "[1.0.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

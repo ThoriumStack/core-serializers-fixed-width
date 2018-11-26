@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/tjaart/projects/lib/core-serializers-fixed-width/Tests/Tests.csproj",
+    "projectName": "Tests",
+    "projectPath": "/home/tjaart/projects/lib/core-serializers-fixed-width/Tests/Tests.csproj",
+    "outputPath": "/home/tjaart/projects/lib/core-serializers-fixed-width/Tests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/Thorium.Core.Serializers.FixedWidthSerializer.csproj": {
+            "projectPath": "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/Thorium.Core.Serializers.FixedWidthSerializer.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.6.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.3.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.3.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
