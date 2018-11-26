@@ -126,60 +126,6 @@ namespace Tests
             return;
         }
 
-        [Fact]
-        public void TestCasesNoDelimiter()
-        {
-            const string path = @"C:\code\core-serializers-fixed-width\Tests\TestInput\TestSacrra.txt";
-            var list = new List<SaccraTestCase>();
-
-            var builder = new InputBuilder()
-                .SetSerializer(new FixedWidthSerializer())
-                .ReadMany<SaccraTestCase, FirstFieldDiscriminator<string>>(list,discriminator => discriminator.Value == "C");
-
-            var transport = new LocalFileTransport
-            {
-                FilePath = path
-            }; 
-            
-            var integrator = new Integrator();
-            integrator.ReceiveData(builder, transport);
-            
-            Assert.NotEmpty(list);
-
-            var serializer = new FixedWidthSerializer();
-            {
-                
-            };
-            
-            var outputTransport= new LocalFileTransport { FilePath = $"SacrraWriteTest.txt" };
-            var build = new OutputBuilder()
-                .SetSerializer(serializer)
-                .AddListData(list); 
-            
-            var integ = new Integrator();
-            
-            integ.SendData(build, outputTransport);
-        }
-
-        [Fact]
-        public void TestCasesDelimiter()
-        {
-            const string path = @"C:\code\core-serializers-fixed-width\Tests\TestInput\TestSacrraDelimiter.txt";
-            var list = new List<SaccraTestCase>();
-
-            var builder = new InputBuilder()
-                .SetSerializer(new FixedWidthSerializer() { Delimiter = "," })
-                .ReadMany<SaccraTestCase, FirstFieldDiscriminator<string>>(list, discriminator => discriminator.Value == "C");
-
-            var transport = new LocalFileTransport
-            {
-                FilePath = path
-            };
-
-            var integrator = new Integrator();
-            integrator.ReceiveData(builder, transport);
-
-            Assert.NotEmpty(list);
-        }
+       
     }
 }
