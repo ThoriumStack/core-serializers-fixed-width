@@ -26,7 +26,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Thorium.Core.DataIntegration/1.0.0": {
+      "Thorium.Core.DataIntegration/1.0.11": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Thorium.Core.DataIntegration.dll": {}
@@ -180,15 +180,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Thorium.Core.DataIntegration/1.0.0": {
-      "sha512": "Pm+AsTueNvWd9HJlQG3V0LOUOMqn54a2Wi2P6Qje/rxp7A/0pVX1pMuf3wcXHxfAtKSv60SbvASeZxOzk0JPBQ==",
+    "Thorium.Core.DataIntegration/1.0.11": {
+      "sha512": "/75RIjSaGu8a1vB8WT/KsEF0ATyxifllOpyIaNp6CAjCMwlc5iL8l1gb8v5G37uz3UdDldsRjKXqnLjFuS2UEA==",
       "type": "package",
-      "path": "thorium.core.dataintegration/1.0.0",
+      "path": "thorium.core.dataintegration/1.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Thorium.Core.DataIntegration.dll",
-        "thorium.core.dataintegration.1.0.0.nupkg.sha512",
+        "thorium.core.dataintegration.1.0.11.nupkg.sha512",
         "thorium.core.dataintegration.nuspec"
       ]
     }
@@ -196,7 +196,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Thorium.Core.DataIntegration >= 1.0.0"
+      "Thorium.Core.DataIntegration >= 1.0.11"
     ]
   },
   "packageFolders": {
@@ -249,7 +249,7 @@
           },
           "Thorium.Core.DataIntegration": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.11, )"
           }
         },
         "imports": [

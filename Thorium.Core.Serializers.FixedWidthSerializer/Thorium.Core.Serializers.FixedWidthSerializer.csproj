@@ -1,8 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>$(appveyor_build_version)</Version>
+    <Authors>Thorium Dev Team</Authors>
+    <Company>Thorium Dev Team</Company>
+    <Product>Serializer for use with Thorium Data Integration Lib</Product>
+    <PackageId>Thorium.Core.Serializers.FixedWidthSerializer</PackageId>
+    <AssemblyVersion>$(appveyor_build_version)</AssemblyVersion>
+    <FileVersion>$(appveyor_build_version)</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Fluent Defensive Programming</Description>
+    <Copyright>Copyright</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/ThoriumStack/core-serializers-fixed-width/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ThoriumStack/core-serializers-fixed-width</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThoriumStack/core-serializers-fixed-width</RepositoryUrl>
+    <PackageTags>csv</PackageTags>
+    <PackageReleaseNotes>Release</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Thorium.Core.DataIntegration" Version="1.0.0" />
+    <PackageReference Include="Thorium.Core.DataIntegration" Version="1.0.11" />
   </ItemGroup>
 </Project>
