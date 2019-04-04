@@ -39,12 +39,11 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -54,12 +53,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "R73gEjqCkI2Nw/IlN8QvcgPNklqQiPowp47JwvW0Bnp/RZnjN4UrJwEvWVJWRK1MsQ+HIfGe9i4aQlfK+ei9jA==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -202,28 +200,31 @@
     ]
   },
   "packageFolders": {
-    "/home/tjaart/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Adolfl\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/Thorium.Core.Serializers.FixedWidthSerializer.csproj",
+      "projectUniqueName": "C:\\GitRepos\\ThoriumStack\\core-serializers-fixed-width\\Thorium.Core.Serializers.FixedWidthSerializer\\Thorium.Core.Serializers.FixedWidthSerializer.csproj",
       "projectName": "Thorium.Core.Serializers.FixedWidthSerializer",
-      "projectPath": "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/Thorium.Core.Serializers.FixedWidthSerializer.csproj",
-      "packagesPath": "/home/tjaart/.nuget/packages/",
-      "outputPath": "/home/tjaart/projects/lib/core-serializers-fixed-width/Thorium.Core.Serializers.FixedWidthSerializer/obj/",
+      "projectPath": "C:\\GitRepos\\ThoriumStack\\core-serializers-fixed-width\\Thorium.Core.Serializers.FixedWidthSerializer\\Thorium.Core.Serializers.FixedWidthSerializer.csproj",
+      "packagesPath": "C:\\Users\\Adolfl\\.nuget\\packages\\",
+      "outputPath": "C:\\GitRepos\\ThoriumStack\\core-serializers-fixed-width\\Thorium.Core.Serializers.FixedWidthSerializer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/tjaart/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Adolfl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://172.21.0.65/guestAuth/app/nuget/v1/FeedService.svc/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

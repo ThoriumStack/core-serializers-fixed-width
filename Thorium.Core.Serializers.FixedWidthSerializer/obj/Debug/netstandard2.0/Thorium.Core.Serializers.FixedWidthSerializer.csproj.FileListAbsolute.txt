@@ -1,0 +1,9 @@
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\bin\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.deps.json
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\bin\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.dll
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\bin\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.pdb
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\obj\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.csprojAssemblyReference.cache
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\obj\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.csproj.CoreCompileInputs.cache
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\obj\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.AssemblyInfoInputs.cache
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\obj\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.AssemblyInfo.cs
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\obj\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.dll
+C:\GitRepos\ThoriumStack\core-serializers-fixed-width\Thorium.Core.Serializers.FixedWidthSerializer\obj\Debug\netstandard2.0\Thorium.Core.Serializers.FixedWidthSerializer.pdb
